@@ -1,3 +1,3 @@
-# jQuery
+# jQuery-node.js-npm-express-server
  
- Learning jQuery sample codes
+Learn jQuery, node.js, npm, express, server setup
