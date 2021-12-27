@@ -4,6 +4,8 @@
 
 //Install EXPRESS --> npm install express
 
+//install body-parser --> npm install body-parser
+
 //run the server with --> nodemon calculator.js
 
 //when server up and running on web browser type --> "localhost:3000"

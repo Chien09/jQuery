@@ -1,4 +1,4 @@
-//Creating NPM Express Server !!!!!
+//Creating web Server using Express!!!!!
 
 //Include NPM command --> npm init 
 //So whenever you create your web development project follow steps to include npm & express in your project
@@ -23,7 +23,7 @@ app.listen(3000, function(){
 });
 
 //when clients or web browsers does a GET REQUEST to homepage tells server to do something with a RESPONSE back to client
-//"/" means home root or home page 
+// "/" means home root or home page 
 app.get("/", function(request, response) { 
 
     //see the content of the request from the client/web browser 
