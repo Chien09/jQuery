@@ -1,11 +1,11 @@
 //---------------Node envionrment-----------------------------------------------------------------------------------
-//To use Node environment in Ternimal just type command --> node (and code away)
+//To use Node shell environment in Ternimal just type command --> node (and code away)
 
 //to include "File System Module" to be able to access your system files in computer and do other things such as READ and WRITE
-//const fs = require("fs"); 
+const fs = require("fs"); 
 
 //EXAMPLE to copy contents of file1 to a new file, check Node.js documnetation for other codes methods
-//fs.copyFileSync("file1.txt", "copyfile1.txt");
+fs.copyFileSync("file1.txt", "copyfile1.txt");
 
 
 
@@ -19,7 +19,7 @@ this will create a "package.json" file.
 
 -entry point: --> means your main JavaScript file 
 
-file will contain similar to this:
+package.json file will contain similar to this:
 {
   "name": "node",
   "version": "1.0.0",
@@ -35,9 +35,9 @@ file will contain similar to this:
 *** Now you can download and use other's NPM packages modules from https://www.npmjs.com for use in your code ***
 
 EXAMPLE: we search "superhero names" in the website and click on the first one 
-It will tell you how to install the "superheros" package module
+It will tell you how to install the "superheroes" package module
 
-type commade -->npm install superheroes (has to be in the same directory!!!!!!!!!! once installed your "package.json" will include it as "dependices")
+type command -->npm install superheroes (has to be in the same directory!!!!!!!!!! once installed your "package.json" will include it as "dependices")
 */
 
 //Usage: 
